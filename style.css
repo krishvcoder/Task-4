@@ -1,0 +1,32 @@
+.card {
+  width: 500px; 
+  border: 1px solid #333;
+  margin: 50px auto;
+  overflow: hidden; 
+  display: flex;
+  flex-direction: column;
+}
+
+
+.card-image {
+  width: 100%;
+  display: block;
+}
+
+
+.card-button {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  
+
+  background: linear-gradient(to right, #ffcc00, #44cc44);
+}
+
+
+.card-button:hover {
+  opacity: 0.9;
+}
